@@ -25,8 +25,8 @@ end
 def return_string_array(array)
   counter = 0
   while counter < array.length do
-    output = return array[counter]
+    output_array << array[counter].to_s
     counter += 1
   end
-output
+  output_array
 end
